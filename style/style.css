@@ -94,6 +94,44 @@ a{
     
 }
 
-.menu-principal{
-    margin: 0 auto;
+.secao{
+    padding: 72px 0;
+}
+
+.titulo-secao{
+    margin-bottom: 32px;
+    padding-left: 12px;
+
+    border-left: 5px solid #2563eb;
+    border-radius: 5px;
+}
+
+.grade-cards{
+    display: grid;
+    gap: 24px;
+}
+
+.cards{
+    padding: 24px;
+    background-color: #fff;
+    border: 1px solid #d8e0e8;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(20, 45, 70, 0);
+
+}
+
+.lista-tecnologias{
+    display: inline-block;
+    gap: 12px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.lista-tecnologias li{
+    padding: 10px;
+    background-color: #fff;
+    display: inline-block;
+    border: 1px solid #d8e0e8;
+    border-radius: 999px;
 }
